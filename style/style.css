@@ -1,34 +1,76 @@
 @font-face {
-    font-family: inter-light;
-    src: url(../fonts/inter/Inter-Light.ttf);
-    font-style: normal;
-    font-weight: normal;
+  font-family: inter-light;
+  src: url(../fonts/inter/Inter-Light.ttf);
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: inter-regular;
-    src: url(../fonts/inter/Inter-Regular.ttf);
-    font-style: normal;
-    font-weight: normal;
+  font-family: inter-regular;
+  src: url(../fonts/inter/Inter-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: inter-medium;
-    src: url(../fonts/inter/Inter-Medium.ttf);
-    font-style: normal;
-    font-weight: normal;
+  font-family: inter-medium;
+  src: url(../fonts/inter/Inter-Medium.ttf);
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: inter-semibold;
-    src: url(../fonts/inter/Inter-SemiBold.ttf);
-    font-style: normal;
-    font-weight: normal;
+  font-family: inter-semibold;
+  src: url(../fonts/inter/Inter-SemiBold.ttf);
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: inter-bold;
-    src: url(../fonts/inter/Inter-Bold.ttf);
-    font-style: normal;
-    font-weight: normal;
+  font-family: inter-bold;
+  src: url(../fonts/inter/Inter-Bold.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+.row {
+  padding: 15px;
+  margin: 0 150px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.up-nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftside-nav {
+  display: flex;
+}
+
+.loc-nav {
+    display: flex;
+  margin-right: 42px;
+}
+
+.mail-nav{
+    display: flex;
+}
+
+.leftside-nav h6 {
+  font-size: 14px;
+}
+
+.leftside-nav p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.rightside-nav a {
+  color: #3f4e65;
+  font-size: 14px;
 }
