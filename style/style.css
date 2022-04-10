@@ -55,6 +55,10 @@ a {
   margin-right: 40px;
 }
 
+.bottom-nav-row-mobile {
+  display: none !important;
+}
+
 .menu {
   display: none;
 }
@@ -168,26 +172,10 @@ a {
   font-weight: 600;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 576px) {
   .up-nav-row,
+  .catalog,
+  .search,
   .operator,
   .operator-photo,
   .operator-text,
@@ -197,12 +185,29 @@ a {
   }
 
   .menu {
-    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 75px;
+    width: 32px;
+    display: block;
   }
 
-.basket-logo{
-  margin-right: 25px;
-}
+  .sultan-logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+  }
 
+  .basket-logo {
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+  }
+
+  .bottom-nav-row-mobile {
+    display: flex !important;
+    justify-content: space-around;
+    border-top: 1px solid rgba(63, 78, 101, 0.2);
+  }
 }
