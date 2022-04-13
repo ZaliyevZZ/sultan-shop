@@ -218,22 +218,90 @@ a {
   margin-bottom: 5px;
 }
 
-.promotional h1{
+#stock{
   font-size: 40px;
   font-weight: 800;
   text-transform: uppercase;
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
 
-.promotional span{
+.orange{
   color: #ffc85e;
-  font-size: 40px;
-  font-weight: 800;
-  text-transform: uppercase;
 }
 
+.product{
+  width: 330px;
+  min-height: 500px;
+  padding: 15px;
+}
 
+.product-img{
+  margin-left: 110px;
+    margin-top: 20px;
+}
 
+.popular{
+  position: absolute;
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px 15px;
+  background-color: rgba(31, 216, 93, 1);
+  border-radius: 5px;
+  color: #fff;
+}
 
+.product-icon{
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.product-icon span{
+  margin-left: 7px;
+}
+
+.product-name{
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.product-info{
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.bold{
+  font-weight: 800;
+}
+
+.first-text{
+  color: rgba(63, 78, 101, 1);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.second-text{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.price{
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.basket-orange{
+  padding: 15px 28px;
+  background-color: #ffc85e;
+  border-radius: 50px;
+  color: #fff;
+  margin-left: 35px;
+}
+
+.basket-orange img{
+  margin-bottom: 7px;
+}
 
 
 
