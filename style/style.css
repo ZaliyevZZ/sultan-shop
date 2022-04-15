@@ -181,24 +181,25 @@ a {
   height: 555px;
 }
 
-.intro-section h1,h2{
+.intro-section h1,
+h2 {
   color: #fff;
 }
 
-.intro-info{
+.intro-info {
   margin-top: 50px;
   margin-left: 200px;
 }
 
-.intro-info h1{
+.intro-info h1 {
   font-size: 55px;
 }
 
-.intro-info h2{
+.intro-info h2 {
   font-size: 30px;
 }
 
-.intro-info>.catalog{
+.intro-info > .catalog {
   width: 250px;
   height: 75px;
   letter-spacing: 4px;
@@ -207,18 +208,18 @@ a {
   margin-bottom: 70px;
 }
 
-.best-choice{
+.best-choice {
   color: #fff;
   padding: 15px;
 }
 
-.best-choice p{
+.best-choice p {
   font-size: 14px;
   margin-left: 15px;
   margin-bottom: 5px;
 }
 
-.stock{
+.stock {
   font-size: 40px;
   font-weight: 800;
   text-transform: uppercase;
@@ -226,26 +227,26 @@ a {
   margin-bottom: 50px;
 }
 
-.orange{
+.orange {
   color: #ffc85e;
 }
 
-.product{
+.product {
   width: 310px;
   min-height: 500px;
   padding: 15px;
   margin-bottom: 20px;
   margin-right: 20px;
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
-.product-img{
+.product-img {
   margin-left: 110px;
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-.popular{
+.popular {
   position: absolute;
   display: inline-block;
   font-size: 15px;
@@ -255,47 +256,47 @@ a {
   color: #fff;
 }
 
-.product-icon{
+.product-icon {
   opacity: 0.5;
   margin-bottom: 10px;
 }
 
-.product-icon span{
+.product-icon span {
   margin-left: 7px;
 }
 
-.product-name{
+.product-name {
   font-size: 17px;
   font-weight: 500;
   margin-bottom: 18px;
 }
 
-.product-info{
+.product-info {
   line-height: 30px;
   margin-bottom: 25px;
 }
 
-.bold{
+.bold {
   font-weight: 800;
 }
 
-.first-text{
+.first-text {
   color: rgba(63, 78, 101, 1);
   font-size: 14px;
   font-weight: 300;
 }
 
-.second-text{
+.second-text {
   font-size: 14px;
   font-weight: 500;
 }
 
-.price{
+.price {
   font-size: 18px;
   font-weight: 800;
 }
 
-.basket-orange{
+.basket-orange {
   padding: 15px 28px;
   background-color: #ffc85e;
   border-radius: 50px;
@@ -303,11 +304,11 @@ a {
   margin-left: 35px;
 }
 
-.basket-orange img{
+.basket-orange img {
   margin-bottom: 7px;
 }
 
-.stock-category{
+.stock-category {
   font-size: 40px;
   font-weight: 800;
   text-transform: uppercase;
@@ -315,42 +316,29 @@ a {
   margin-bottom: 15px;
 }
 
-.product-category{
+.product-category {
   margin: 40px 0px;
 }
 
-.product-category p{
+.product-category p {
   text-align: center;
-    margin-top: 5px;
-    font-weight: 500;
+  margin-top: 5px;
+  font-weight: 500;
 }
 
-.prod-cat{
- width: 250px;
- height: 250px;
- margin: 50px 5px;
- background-color: rgb(236, 236, 236);
- border-radius: 20px;
+.prod-cat {
+  width: 250px;
+  height: 250px;
+  margin: 50px 5px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 20px;
 }
 
-.product-category-photo img{
+.product-category-photo img {
   width: 250px;
   height: 200px;
   border-radius: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 576px) {
   .up-nav-row,
