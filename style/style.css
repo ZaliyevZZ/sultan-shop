@@ -316,8 +316,7 @@ a {
 }
 
 .product-category{
-  width: 250px;
-  min-height: 280px;
+  margin: 40px 0px;
 }
 
 .product-category p{
@@ -326,46 +325,19 @@ a {
     font-weight: 500;
 }
 
-.product-category-photo-1{
-  width: 250px;
-  height: 250px;
-  background-image: url(../images/mylo-gel-mochalka-gel-dlya_adobe.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+.prod-cat{
+ width: 250px;
+ height: 250px;
+ margin: 50px 5px;
+ background-color: rgb(236, 236, 236);
+ border-radius: 20px;
 }
 
-.product-category-photo-2{
+.product-category-photo img{
   width: 250px;
-  height: 250px;
-  background-image: url(../images/mylo-gel-mochalka-gel-dlya_adobe.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  height: 200px;
+  border-radius: 20px;
 }
-
-.product-category-photo-3{
-  width: 250px;
-  height: 250px;
-  background-image: url(../images/mylo-gel-mochalka-gel-dlya_adobe.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.product-category-photo-4{
-  width: 250px;
-  height: 250px;
-  background-image: url(../images/mylo-gel-mochalka-gel-dlya_adobe.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.product-category-photo-5{
-  width: 250px;
-  height: 250px;
-  background-image: url(../images/mylo-gel-mochalka-gel-dlya_adobe.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 
 
 
